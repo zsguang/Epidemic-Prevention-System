@@ -1,0 +1,22 @@
+server:
+  port: 9090
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 1234567890
+    url: jdbc:mysql://localhost:3306/db_epidemic_prevention_system?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+
+#mybatis-plus:
+#  mapper-locations: /mapper/**.xml
+
+#  spring.servlet.multipart.max-file-size=10MB
+#  spring.servlet.multipart.max-request-size=10MB
+
+logging:
+  pattern:
+    console: "%d %5p %clr(%-40.40c) : %m %n"
