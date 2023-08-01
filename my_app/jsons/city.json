@@ -1,0 +1,13 @@
+{
+  "cityName": "兰州",
+  "currentConfirmedCount?": 168,
+  "confirmedCount?": 1048,
+  "suspectedCount?": 0,
+  "curedCount?": 878,
+  "deadCount?": 2,
+  "highDangerCount?": 0,
+  "midDangerCount?": 0,
+  "locationId?": 620100,
+  "currentConfirmedCountStr?": "168",
+  "cityEnglishName?": "Lanzhou"
+}

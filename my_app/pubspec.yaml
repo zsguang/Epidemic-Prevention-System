@@ -1,0 +1,68 @@
+name: my_app
+description: Community Epidemic Control System.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-277.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  cupertino_icons: ^1.0.2
+  json_annotation: ^4.8.0
+  shared_preferences: ^2.0.18
+  dio: ^5.0.1
+  provider: ^6.0.5
+  bot_toast: ^4.0.3
+  image_picker: ^0.8.7
+  permission_handler: ^10.2.0
+  qr_flutter: ^4.0.0
+  qr_bar_code_scanner_dialog: ^0.0.5
+  mapofchina: ^0.0.6
+  url_launcher: ^6.1.10
+#  charts_flutter_new: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
+  json_model: ^1.0.0
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/notice.png
+    - assets/images/itinerary.png
+    - assets/images/image2.png
+    - assets/images/defaultUser.png
+    - assets/images/gender.png
+    - assets/images/gender2.png
+    - assets/images/age.png
+    - assets/images/idcard.png
+    - assets/images/manager.png
+    - assets/images/level.png
+    - assets/images/temperature.png
+    - assets/images/coughed.png
+    - assets/images/diarrheaed.png
+    - assets/images/weaked.png
+    - assets/images/numid.png
+    - assets/images/district.png
+    - assets/images/address.png
+    - assets/images/export.png
+    - assets/images/success.png
+    - assets/images/failure.png
+    - assets/images/scanner.png

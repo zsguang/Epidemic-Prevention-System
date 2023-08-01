@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "locationId": 620000,
+      "continentName": "亚洲",
+      "continentEnglishName": "Asia",
+      "countryName": "中国",
+      "countryEnglishName": "China",
+      "countryFullName": null,
+      "provinceName": "甘肃省",
+      "provinceEnglishName": "Gansu",
+      "provinceShortName": "甘肃",
+      "currentConfirmedCount": 30,
+      "confirmedCount": 1561,
+      "suspectedCount": 0,
+      "curedCount": 1529,
+      "deadCount": 2,
+      "comment": "",
+      "cities": [
+        {
+          "cityName": "兰州",
+          "currentConfirmedCount": 168,
+          "confirmedCount": 1048,
+          "suspectedCount": 0,
+          "curedCount": 878,
+          "deadCount": 2,
+          "highDangerCount": 0,
+          "midDangerCount": 0,
+          "locationId": 620100,
+          "currentConfirmedCountStr": "168",
+          "cityEnglishName": "Lanzhou"
+        }
+      ],
+      "updateTime": 1670895396900
+    }
+  ],
+  "success": true
+}
